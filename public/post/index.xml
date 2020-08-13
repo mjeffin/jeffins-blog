@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jeffin&#39;s Blog</title>
+    <link>https://jeffin.jusfocus.com/post/</link>
+    <description>Recent content in Posts on Jeffin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Aug 2020 19:36:36 +0530</lastBuildDate>
+    
+	<atom:link href="https://jeffin.jusfocus.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome Hugo</title>
+      <link>https://jeffin.jusfocus.com/post/welcome-hugo/</link>
+      <pubDate>Thu, 13 Aug 2020 19:36:36 +0530</pubDate>
+      
+      <guid>https://jeffin.jusfocus.com/post/welcome-hugo/</guid>
+      <description>This is the new home for my blog. Welcome Hugo. May be I could learn go also along the way.
+99% of the technical knowlegde I have has been acquired from blogs, github and stackoverflow. It&amp;rsquo;s time to give back to the community. Hoping that I would be of help to someone down the road.
+The hugo theme used is Even. The reason to choose is that there are not images in there and ofcourse the GitHub stars.</description>
+    </item>
+    
+  </channel>
+</rss>
