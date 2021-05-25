@@ -1,8 +1,8 @@
 ---
 title: "Postgres Administration"
-date: 2021-05-25T
+date: 2021-05-24T20:00:00+05:30
 draft: false
-tags: ["postgres","snippets]
+tags: ["postgres","snippets"]
 
 ---
 
