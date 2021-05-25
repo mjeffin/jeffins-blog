@@ -2,6 +2,8 @@
 title: "Welcome Hugo"
 date: 2020-08-13T19:36:36+05:30
 draft: false
+tags: ["musings"]
+
 ---
 
 This is the new home for my blog. Welcome [Hugo](https://gohugo.io/), the world's fastest site for building websites. May be I could learn *go* also along the way.

@@ -2,6 +2,7 @@
 title: "Wireguard VPN on Raspberry Pi"
 date: 2020-08-14T07:44:59+05:30
 draft: false
+tags: ["networking","wireguard"]
 ---
 Recently we developed a simple and easy to use Django app for a small mission hospital in remote town in the state of Bihar, India. Usually we host out apps on AWS ec2, but unstable internet in the hospital and total cost of ownership turned out to be a challenge. We had to deploy it locally. So we decided to test it on a Raspberry Pi 3 Model B+ we had procured for another project. We ran continously for 2 weeks and it worked like a charm. More on that in another post. 
 
