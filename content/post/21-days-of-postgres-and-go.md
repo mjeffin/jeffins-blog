@@ -1,5 +1,5 @@
 ---
-title: "Wireguard VPN on Raspberry Pi"
+title: "21 Days of Postgres and Go"
 date: 2021-09-21T07:44:59+05:30
 draft: false
 tags: ["musings","go","postgres","challenge"]
