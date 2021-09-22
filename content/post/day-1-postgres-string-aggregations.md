@@ -47,4 +47,10 @@ select device_id, count(*) as alarm_count, string_agg(distinct location, '') fro
 Coming from the land of Django ORM, I have only started my pure SQL journey only about a year back. So, please let me know if there are 
 better ways to do things that I mention in these posts. 
 
+### Good Resouces
+
+- https://dataschool.com/how-to-teach-people-sql/how-sql-aggregations-work/
+- https://blog.timescale.com/blog/how-postgresql-aggregation-works-and-how-it-inspired-our-hyperfunctions-design-2/
+
+
 That's it for Day 1. See you tomorrow!
