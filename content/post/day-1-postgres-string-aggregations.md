@@ -16,6 +16,8 @@ Aggregations in SQL are used to get useful insights from large set of data by do
 When we talk about aggregations, usually mathematical or statistical operations like sum, avg,count etc comes to mind. 
 Postgres also provides pretty good text [aggregation functions](https://www.postgresql.org/docs/13/functions-aggregate.html) also. Let's explore one use case
 
+### Scenario
+
 Suppose you are a smoke alarm sensor rental company. You have installed your equipments in different locations  
 Assume for a moment that your database is not yet perfectly normalised or just that you are not storing Foreign keys in your time series 
 table after reading some [guides](https://blog.timescale.com/blog/13-tips-to-improve-postgresql-insert-performance/) which says that FK's 
@@ -52,7 +54,7 @@ select device_id, count(*) as alarm_count, string_agg(distinct location, '')
 Coming from the land of Django ORM, I have only started my pure SQL journey only about a year back. So, please let me know if there are 
 better ways to do things that I mention in these posts. 
 
-### Good Resouces
+### Good Resources
 
 - https://dataschool.com/how-to-teach-people-sql/how-sql-aggregations-work/
 - https://blog.timescale.com/blog/how-postgresql-aggregation-works-and-how-it-inspired-our-hyperfunctions-design-2/
