@@ -24,10 +24,13 @@ affect insert performance. So your schema for alarms table is like this,
 |device_id|location|alarm_time|other fields.. |
 | ---     | ---         |  ---     | ---          |
 
-Then assume that you have a requirement to get the list of devices which generated the highest number of alarms. your query would be,
+Then assume that you have a requirement to get the list of devices which generated the highest number of alarms in past 30 days. your query would be,
 
 ```sql
-select device_id, count(*) as alarm_count from alarms where <some condition> group by device_id order by alarm_count limit 10 
+select device_id, count(*) as alarm_count
+    from alarms
+    where alarm_time > now() - interval '1 month'
+    group by device_id order by alarm_count limit 10 
 ```
 
 Now you know the devices which generated the highest number of alarms. Good. But the device id in itself doesn't tell you much. 
@@ -40,8 +43,10 @@ You can't just specify a single column, you have to aggregate it.  So, how would
 aggregation function. To eliminate duplicates, we can use the *distinct* keyword inside it. The final query is
 
 ```sql
-select device_id, count(*) as alarm_count, string_agg(distinct location, '') from alarms where <some condition> 
-                            group by device_id order by alarm_count limit 10
+select device_id, count(*) as alarm_count, string_agg(distinct location, '') 
+    from alarms 
+    where alarm_time > now() - interval '1 month'
+    group by device_id order by alarm_count limit 10
 ```
 
 Coming from the land of Django ORM, I have only started my pure SQL journey only about a year back. So, please let me know if there are 
