@@ -1,7 +1,7 @@
 ---
 title: "21 Days of Postgres and Go"
 date: 2021-09-21T07:44:59+05:30
-draft: false
+draft: true
 tags: ["musings","go","postgres","challenge"]
 ---
 It's often said that it takes only 21 days to form a new habit. Being better organized at taking technical notes is something I 

@@ -1,5 +1,5 @@
 ---
-title: "Day 1 - Postgres String Aggregations"
+title: "Postgres String Aggregations"
 date: 2021-09-22T07:44:59+05:30
 draft: false
 tags: ["postgres","challenge"]
@@ -59,5 +59,3 @@ better ways to do things that I mention in these posts.
 - https://dataschool.com/how-to-teach-people-sql/how-sql-aggregations-work/
 - https://blog.timescale.com/blog/how-postgresql-aggregation-works-and-how-it-inspired-our-hyperfunctions-design-2/
 
-
-That's it for Day 1. See you tomorrow!
