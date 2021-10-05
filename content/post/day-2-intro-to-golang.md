@@ -1,30 +1,31 @@
 ---
 title: "Python to Go journey -part 1"
-date: 2021-09-27T07:44:59+05:30
-draft: true
+date: 2021-10-05T07:44:59+05:30
+draft: false
 tags: ["golang","challenge"]
 ---
 
 ### Introduction
 
 [Python](https://www.python.org/) is the easiest language to learn and the second-best language for every thing else.
-It's an interpreted, loosely typed and almost reads the pseudocode. It's ....couple more sentences about python
+It's an interpreted, dynamically typed and almost reads the pseudocode. It's one widely used by a variety of people for 
+lots of different purposes. 
 
-Used by everyone...
+I was one of those guys who learned python so that I could use it to login to cisco routers, collect and analyse logs 
+automatically without my intervention every time. [Betrant Russel](https://harpers.org/archive/1932/10/in-praise-of-idleness/) sure 
+had an influence on me. Thus stared the long and fruitful journey with python and django.
 
-I was one of those guys who learned python so that I could use it to login to cisco routers, collect and analyse logs without
-me doing it every time. 
+Then in one of the projects, there was requirement to consume messages from kafka and then do some processing. 
+It was okay when I was consuming real time, but when it came to consuming millions of previous records from an earlier point in time,
+python's speed limitations started becoming obvious. Threading or multiprocessing was an option, but it seemed like a
+good opportunity to try out go and it's famous go-routines. I have been wanting to learn go for a long time. When you have a real life use case, learning becomes much more interesting.
 
-Then in one of the projects, I had to consume from kafka and then do processing. It was okay when I was consuming real time, but 
-when I had to consume millions of previous records from earlier point in time, python's speed limitations started becoming obvious. 
-I could have used threading or multiprocessing, but it seemed like a good place to try out go and it's famous go-routines.
-I have been wanting to learn go for a long time. When you have a real life use case, learning becomes much more interesting.
-
-So thus I started learning go, step by step. Started with the excellent [Tour of Go](https://tour.golang.org/welcome/1), in the go 
+So thus I started learning Go, one step a time. Started with the excellent [Tour of Go](https://tour.golang.org/welcome/1), in the go 
 playground. It is a really great place to start. You just need a browser, time, little patience and lots of curiosity. Once I became 
 slightly familiar, I started implementing it in my work. Whenever some ad hoc scripting requirements came up, I used to do it in python, 
 deliver it and then re-write it in Go. What took me one hour in python, used to take one full day in Go. But those extra efforts were 
-totally worth it. It took some time to build up the muscle memory and now I can code in both the languages in equal amount of time.
+totally worth it. It took some time to build up the muscle memory and now I can code in both the languages in equal amount of time and 
+go is my go-to language for most things nowð
 
 That's it about my journey. For those of you are contemplating that trip, here is some comparison between the two. The views are 
 totally personal, and I might not be 100% right too. So take these with a pinch of salt
@@ -46,5 +47,7 @@ safer, better quality code in Go because of that. You are generally more confide
 7. **REPL/Tooling**: Python has it;s command line interface and [jupyter](https://jupyter.org/) notebooks for trying out something quick and dirty. Go has it's [playground](https://github.com/go-playground), but 
   it's online. Python package management is not perfect, but python has better tooling at the moment.
 
-That's it for comparison. Both are great languages and I would encourage every python developer to try out Go. 
+That's it for comparison. Both are great languages and I would encourage every python developer to try out Go, alteast as an intellectual exercise.
+
+Will try to write some more detailed post translating the concepts in python to Go. 
 
