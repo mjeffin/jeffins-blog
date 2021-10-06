@@ -2,7 +2,7 @@
 title: "Python to Go journey -part 1"
 date: 2021-10-05T07:44:59+05:30
 draft: false
-tags: ["golang","challenge"]
+tags: ["golang","python","musings"]
 ---
 
 ### Introduction
