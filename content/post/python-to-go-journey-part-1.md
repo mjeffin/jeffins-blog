@@ -6,7 +6,7 @@ tags: ["golang","python","musings"]
 ---
 
 [Python](https://www.python.org/) is the easiest language to learn and the second-best language for every thing else.
-It's an interpreted, dynamically typed and almost reads the pseudocode. It's one widely used by a variety of people for 
+It's an interpreted, dynamically typed and almost reads like pseudocode. It's widely used by a variety of people for 
 lots of different purposes. 
 
 I was one of those guys who learned python so that I could use it to login to cisco routers, collect and analyse logs 
