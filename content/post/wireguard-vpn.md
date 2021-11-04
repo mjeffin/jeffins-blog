@@ -1,6 +1,6 @@
 ---
 title: "Wireguard - Anybody can run a VPN now!"
-date: 2021-11-4T07:44:59+05:30
+date: 2021-11-04T07:44:59+05:30
 draft: false
 tags: ["networking","wireguard"]
 ---
