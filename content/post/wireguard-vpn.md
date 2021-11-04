@@ -36,7 +36,7 @@ the linux kernel now. The latest [Mozilla VPN](https://www.mozilla.org/en-US/pro
 
 After having tried to set up openvpn a few years back, we were amazed by how easy it was to set up wireguard and hence we decided to go ahead with it.
 I would love to rave more about it, but due to lack of time, will leave you with the hn search [link](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=wireguard&sort=byPopularity&type=story)
-to read more. Let's so straight into the solution design and implementation for our problem at hand.
+to read more. Let's go straight into the solution design and implementation for our problem at hand.
 
 
 # Solution Design
