@@ -46,7 +46,7 @@ Programming as a whole became a better experience after moving to static typing 
 5. **Speed** : Go beats python hands down with it's lightweight [goroutines and channels](https://golang.org/doc/effective_go#concurrency). It's also pretty to fast to build go binaries. 
 6. **Prototyping Speed**: Python is the best language to quickly try out a concept and put together a quick demo. 
 7. **Verbosity**: Go is more low level and stricter than python and there is lesser magic. Hence, more lines of code have to be written in go for same solution than in python.
-   Introduction of [generics](https://go.dev/blog/why-generics) will help to improve the situation.~~ (This is one topic in Go that I still haven't got my head around toð)~~ 
+   Introduction of [generics](https://go.dev/blog/why-generics) will help to improve the situation. ~~ (This is one topic in Go that I still haven't got my head around) ~~
 [Why Generics](https://go.dev/blog/why-generics) does a good job explaining the need for it and
 [the proposal](https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md) has already been accepted will be part of next release
 8. **REPL/Tooling**: Python has it;s command line interface and [jupyter](https://jupyter.org/) notebooks for trying out something quick and dirty. Go has it's [playground](https://github.com/go-playground), but 
