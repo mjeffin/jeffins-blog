@@ -1,6 +1,6 @@
 ---
 title: "Blogging Platforms"
-date: 2022-05-24T20:00:00+05:30
+date: 2022-05-20T20:00:00+05:30
 draft: false
 tags: ["musings"]
 ---
