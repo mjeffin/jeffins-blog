@@ -6,3 +6,5 @@ tags: ["musings"]
 ---
 
 Which is the best blogging platform ??
+
+Wordpress or hugu ?
